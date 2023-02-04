@@ -1,0 +1,272 @@
+﻿		html{
+			width: 100%;
+		}
+		.Menu{
+			background: #e2e2e2
+		}
+		.index{
+			background: #f1f1f1;
+			width: 100%;
+		}
+		.selector-for-some-widget {
+		    box-sizing: content-box;
+		}
+		.navbg{
+			background: #efca00;
+		}
+		.chinese{
+			font-family: "微軟正黑體";
+			font-weight: bold;
+		}
+		.banner{
+			-webkit-filter:brightness(70%);
+			position: absolute;
+			top: -1.413px;
+		}
+		.bannerword{
+			font-weight: bold;
+			color: white;
+			z-index:3;
+			width: 100%;
+			text-align: center;
+		}
+		.marginleftauto{
+			margin-left: auto;
+		}
+		.col{
+			padding: 0;
+		}
+		.margin{
+			margin:0px 20px 20px 20px;
+		}
+		.width100{
+		    width: 100%;
+		}
+		.padding0{
+		    padding: 0px;
+		}
+		.margin0{
+		    margin:0px;
+		}
+		.topmargin{
+			margin:56px 0px 0px 0px;
+		}
+		.center{
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+		}
+		.piccenter{
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+		}
+		.footer{
+			background: black;
+			height: 100px;
+			margin-top: 100px;
+
+		}
+		.footerWord{
+			padding-top:30px;
+			text-align: center;
+			font-size:15px;
+			font-weight: bold;
+			color:gray;
+		}
+		.listgroupmargin{
+			margin-bottom: 10px;
+		}
+		.productmargin{
+			margin-top: 150px;
+		}
+		.productmainimg{
+			margin-bottom: 20px;
+		}
+		.bannerWord{
+			display: block;
+			margin: 4% auto 0px auto;
+			width: 65%;
+			z-index: 2;
+		}
+		.bannermargin{
+			margin:0px 0px 20px 0px;
+		}
+		.bar{
+			width: 100%;
+			height: 3px;
+			background: gray;
+		}
+		.buybutton{
+			width: 100%;
+			font-family: 微軟正黑體;
+			font-weight: bold;
+			background-color: #efca00;
+		}
+		.hotimg:hover{
+			transition: 0.5s;
+			transform: scale(1.2, 1.2);
+		}
+		.line{
+			height: 4px;
+			background: #eace6d;
+		}
+		.searchInput{
+			background-color: black;
+			color:white;
+			font-family:微軟正黑體;
+			font-weight: bold;
+			width: 18%; 
+			border:0px;
+		}
+		/*動畫*/
+		.newsPic{
+			padding: 0;
+			border:0;
+		}
+		.newsPicDiv:hover .newsPic{
+            transition: 0.5s;
+            transform: scale(1.1, 1.1);
+            -webkit-filter:brightness(150%);
+		}
+		.newsPicDiv{
+			margin: 10px 15px 10px 15px; 
+			overflow: hidden;
+		}
+		img {
+		  vertical-align: middle;
+		}
+/* Position the image container (needed to position the left and right arrows) */
+		.container {
+		  position: relative;
+		}
+
+		/* Hide the images by default */
+		.mySlides {
+		  display: none;
+		  margin: 0px auto 20px auto;
+		  width: 400px;
+		}
+
+		/* Add a pointer when hovering over the thumbnail images */
+		.cursor {
+		  cursor: pointer;
+		  margin: 0px auto;
+		  display: block;
+		}
+		/* Next & previous buttons */
+		.prev,
+		.next {
+		  cursor: pointer;
+		  position: absolute;
+		  top: 40%;
+		  width: auto;
+		  padding: 16px;
+		  margin-top: -50px;
+		  color: white;
+		  font-weight: bold;
+		  font-size: 20px;
+		  border-radius: 0 3px 3px 0;
+		  user-select: none;
+		  -webkit-user-select: none;
+		}
+
+		/* Position the "next button" to the right */
+		.next {
+		  right: 0;
+		  border-radius: 3px 0 0 3px;
+		}
+
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover,
+		.next:hover {
+		  background-color: rgba(0, 0, 0, 0.8);
+		}
+
+		/* Number text (1/3 etc) */
+		.numbertext {
+		  color: #f2f2f2;
+		  font-size: 12px;
+		  padding: 8px 12px;
+		  position: absolute;
+		  top: 0;
+		}
+        .Row{
+        	width: 80%;
+        	margin: 0px auto;
+        }
+		.Row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+
+		/* Six columns side by side */
+		.column {
+		  float: left;
+		  width: 25%;
+		}
+
+		/* Add a transparency effect for thumnbail images */
+		.demo {
+		  opacity: 0.6;
+		}
+
+		.active,
+		.demo:hover {
+		  opacity: 1;
+		}
+		.Btn{
+			background-color: #1e1e1e;
+			color: white;
+		}
+		.hotBG{
+			background: #f9ca6f;
+			padding: 20px;
+			border-radius: 20px;
+			margin-bottom: 20px;
+		}
+		.hotImg{
+			width: 100%;
+			display: block;
+			margin: 0px auto;
+			border-radius: 5px;
+			box-shadow: 2px 2px 8px #404040;
+			opacity:0;
+		}
+		.optionImg{
+			width: 80%;
+			display: block;
+			margin: 40px auto;
+			border-radius: 30px;
+			-webkit-filter:brightness(90%);
+		}
+		.optionImg:hover{
+			transition: 0.5s;
+			-webkit-filter:brightness(120%);
+		}
+		.optionButton{
+			width: 10%;
+			height: 36px;
+			border:0;
+			border-radius: 10px;
+			font-family: "微軟正黑體";
+			font-weight: bold;
+			background: black;
+			color: white;
+			position: absolute;
+			top: 55%;
+			left: 70%;
+		}
+		.ratingimg{
+			width: 20px;
+			height: 20px;
+		}
+		.ratingbutton{
+			background-color: #efca00;
+			color: black;
+			font-weight: bolder;
+		}
+		.userpic{
+			width: 100px;
+		}

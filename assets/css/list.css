@@ -1,0 +1,66 @@
+/*nav bar*/
+.navbg{
+background: #efca00;
+}
+.chinese{
+font-family: "微軟正黑體";
+font-weight: bold;
+}
+.marginleftauto{
+margin-left: auto;
+}
+.center{
+margin-left: auto;
+margin-right: auto;
+}
+/*nav bar end*/
+.marginleftauto{
+margin-left: auto;
+}
+/*側邊導覽列*/
+.margintop{
+margin-top:150px;
+}
+.barfont{
+font-weight: bolder;
+}
+/*表單*/
+.delbutton{
+font-weight: bolder;
+background-color:  #efca00;
+}
+.searchInput{
+background-color: black;
+color:white;
+font-family:微軟正黑體;
+font-weight: bold;
+width: 18%;
+border:0px;
+}
+.tdWidth{
+	width:200px;
+	padding: 10px 0px;
+}
+.tdWidth2{
+	width:100%;
+	margin:10px 0px;
+}
+.form-control{
+	width: 90%;
+}
+/*footer*/
+.width100{
+width: 100%;
+}
+.footer{
+background: black;
+height: 100px;
+margin-top: 100px;
+}
+.footerWord{
+padding-top:30px;
+text-align: center;
+font-size:15px;
+font-weight: bold;
+color:gray;
+}
